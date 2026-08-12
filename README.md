@@ -1,2 +1,10 @@
 # EEG-Brain-Analysis
-EEG signal processing and brain computer interface projects
+My first EEG singal processing project
+Tools:
+Python
+Numpy
+Matplotlib
+MNE
+
+Goal:
+Brain-computer-interface enginner
