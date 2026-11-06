@@ -1,0 +1,27 @@
+# EEG data and fitted model files
+*.fif
+*.edf
+*.bdf
+*.vhdr
+*.vmrk
+*.eeg
+*.set
+*.fdt
+*.gdf
+*.cnt
+
+# Dataset folders
+data/
+**/data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
