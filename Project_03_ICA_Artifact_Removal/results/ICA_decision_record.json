@@ -8,7 +8,7 @@
         0
     ],
     "component_name": "ICA000",
-    "suspected_artifact": "Ocular-related artifact",
+    "suspected_artifact": "Suspected ocular-related artifact",
     "evidence": [
         "Frontal-dominant spatial distribution",
         "Strong low-frequency power",
