@@ -88,3 +88,36 @@ MNE-Python, and the listed scientific computing libraries.
 
 This portfolio is an independent learning and technical demonstration
 project. It is not intended for clinical diagnosis or medical use.
+## Environment Setup
+
+### Requirements
+
+- Python 3.12+
+- MNE-Python
+- NumPy
+- SciPy
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+
+### Install Dependencies
+
+Clone this repository and navigate to the project root directory. Run:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open the corresponding notebook in the `notebooks/` directory of each project.
+
+### Data Availability
+
+EEG datasets and raw signal files are not included in this public repository. Please refer to each project's README for dataset requirements and data path configuration.
+
+**Note:** Dependency compatibility may vary across Python versions. A clean environment test is recommended before running the notebooks.
