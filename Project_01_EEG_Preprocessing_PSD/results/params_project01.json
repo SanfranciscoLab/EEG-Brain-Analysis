@@ -1,0 +1,12 @@
+{
+  "input_file": "C:\\Users\\Administrator\\EEG-Analysis-Portfolio\\Project_01_EEG_Preprocessing_PSD\\data\\eeg_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S001\\S001R06.edf",
+  "sfreq_hz": 160.0,
+  "n_channels": 64,
+  "l_freq_hz": 1.0,
+  "h_freq_hz": 40.0,
+  "filter_design": "firwin",
+  "psd_fmin": 1,
+  "psd_fmax": 40,
+  "psd_n_fft": 256,
+  "output_file": "C:\\Users\\Administrator\\EEG-Analysis-Portfolio\\Project_01_EEG_Preprocessing_PSD\\results\\EEG_filtered_raw.fif"
+}
