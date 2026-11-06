@@ -1,0 +1,38 @@
+{
+  "input_file": "C:\\Users\\Administrator\\EEG-Analysis-Portfolio\\Project_01_EEG_Preprocessing_PSD\\results\\EEG_filtered_raw.fif",
+  "sampling_frequency_hz": 160.0,
+  "bands_hz": {
+    "Delta": [
+      1,
+      4
+    ],
+    "Theta": [
+      4,
+      8
+    ],
+    "Alpha": [
+      8,
+      13
+    ],
+    "Beta": [
+      13,
+      30
+    ],
+    "Gamma": [
+      30,
+      40
+    ]
+  },
+  "psd_method": "Welch",
+  "psd_fmin": 1,
+  "psd_fmax": 40,
+  "psd_n_fft": 256,
+  "feature_method": "mean PSD within each frequency band",
+  "feature_unit": "V^2/Hz",
+  "relative_power_normalization": "sum of the five selected bands",
+  "output_csv": [
+    "C:\\Users\\Administrator\\EEG-Analysis-Portfolio\\Project_02_EEG_BandPower_Features\\results\\band_power_absolute.csv",
+    "C:\\Users\\Administrator\\EEG-Analysis-Portfolio\\Project_02_EEG_BandPower_Features\\results\\band_power_relative.csv"
+  ],
+  "output_heatmap": "C:\\Users\\Administrator\\EEG-Analysis-Portfolio\\Project_02_EEG_BandPower_Features\\figures\\band_power_heatmap.png"
+}

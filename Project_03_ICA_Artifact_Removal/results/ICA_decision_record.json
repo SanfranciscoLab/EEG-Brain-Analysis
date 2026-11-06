@@ -1,0 +1,21 @@
+{
+    "project": "EEG Quality Control and ICA",
+    "sampling_rate_hz": 160.0,
+    "eeg_channels": 64,
+    "ica_method": "FastICA",
+    "ica_components": 28,
+    "excluded_components": [
+        0
+    ],
+    "component_name": "ICA000",
+    "suspected_artifact": "Ocular-related artifact",
+    "evidence": [
+        "Frontal-dominant spatial distribution",
+        "Strong low-frequency power",
+        "Large transient activity around 102.7-103.5 seconds",
+        "Removal reduced the frontal transient amplitude"
+    ],
+    "eog_channel_available": false,
+    "interpretation": "ICA000 is highly suspected to be ocular-related, but cannot be conclusively identified without an independent EOG channel or video evidence.",
+    "cleaned_data": "EEG_ICA_cleaned_raw.fif"
+}
