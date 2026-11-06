@@ -108,7 +108,33 @@ Key tasks:
 The analysis is exploratory. It does not establish validated ERD/ERS effects or demonstrate BCI classification performance.
 
 [View Project 05](Project_05_Motor_Imagery_BandPower/)
+## Selected Results
 
+Representative visualizations generated from the EEG analysis projects.
+
+### 1. EEG Power Spectral Density
+
+**Project 01 — EEG Preprocessing and PSD**
+
+![EEG Power Spectral Density](Project_01_EEG_Preprocessing_PSD/figures/psd.png)
+
+### 2. Frequency Band Power Heatmap
+
+**Project 02 — EEG Band Power Features**
+
+![EEG Band Power Heatmap](Project_02_EEG_BandPower_Features/figures/band_power_heatmap.png)
+
+### 3. ICA Artifact Removal Comparison
+
+**Project 03 — ICA Artifact Removal**
+
+![ICA Before and After Comparison](Project_03_ICA_Artifact_Removal/figures/ICA/ICA000_before_after_comparison.png)
+
+### 4. Motor Imagery Mu and Beta Band-Power Changes
+
+**Project 05 — Motor Imagery Band-Power Analysis**
+
+![Motor Imagery Mu and Beta Band-Power Comparison](Project_05_Motor_Imagery_BandPower/figures/EEG_Mu_Beta_Time_Comparison.png)
 ## Analysis Workflow
 
 The projects cover the following general workflow:
