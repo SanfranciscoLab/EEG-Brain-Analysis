@@ -107,7 +107,7 @@ Key tasks:
 
 The analysis is exploratory. It does not establish validated ERD/ERS effects or demonstrate BCI classification performance.
 
-[View Project 05](Project_05_ERP_Analysis/)
+[View Project 05](Project_05_Motor_Imagery_BandPower/)
 
 ## Analysis Workflow
 
