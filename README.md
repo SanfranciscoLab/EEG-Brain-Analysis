@@ -211,4 +211,4 @@ It is intended for educational and research-oriented exploration of EEG signal p
 
 ## Author
 
-**GitHub:** [loseeye](https://github.com/loseeye)
+**GitHub:** [SanfranciscoLab](https://github.com/SanfranciscoLab)
